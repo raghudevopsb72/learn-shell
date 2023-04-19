@@ -39,3 +39,7 @@ modify(substitute) some words
 Instead of | we can use / , ?, :, ;, #, @
 
 ```
+
+PROBLEM:
+1. If input is not given then script should fail
+2. 
