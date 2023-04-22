@@ -57,9 +57,32 @@ b=30
 
 echo c - $c
 
+# export c - This will mark the variable as environment variable so all the scripts/commands that executed on terminal can access this script
+#          - If we declare env variable inside script, All the scripts/commands that executes inside this script can access that variable.
 
 #4. Inputs
+
+# Special Variables
+  # $0 - script name
+  # $1 - First Argument
+  # $2 - Second Argument
+  # $* - All Arguments
+  # $# - No of arguments
+
+  # Script has its own inputs, function also have their own inputs.
+
 #5. Conditions
+
+  # If condition
+    # 1. Simple IF
+    # 2. If Else
+    # 3. Else - If
+
+  # If uses expressions
+    # 1. String expressions
+    # 2. Number expressions
+    # 3. File expressions
+
 #6. Loop
 #7. Function
 #8. Exit Status
