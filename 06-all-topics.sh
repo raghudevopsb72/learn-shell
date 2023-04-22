@@ -88,12 +88,36 @@ echo c - $c
     # This can do only string comparisions, hence it is not a much preferred option.
 
 #6. Loop
+
+  # If we want to execute same commands again and again continously then loop will help you. There are two criterias, Expression based and input based.
+
+  # Two loop commands
+    # Expression Based loop - while
+
+    # Input Based Loop - for
+
+
 #7. Function
   # If we declare a name to set of commands then it is called as function.
-  # Variables inside main program can be accessed and modified inside fucntion and viceversa.
-
-
+  # Variables inside main program can be accessed and modified inside function and viceversa.
+  # function has its own exit status ranges from 0-255 same like exit command.
 
 #8. Exit Status
+  # exit command ranges from 0-255
+
 #9. Quotes
-#10. SED Editor
+  # Why Quotes ?
+    # If there is any special character in input to the command then we use quotes.
+    # We have single quotes and double quotes
+      # Single Quotes - To print as it is we use single quotes. (Does not allow variables)
+      # Double quotes - To print along with variable substitution. (Allow variables)
+
+# 10. Redirectors
+
+  # Input (<) and output (>) redirector
+  # Output is two types
+    # OUTPUT  - 1> or >
+    # ERROR   - 2>
+      # OUTPUT + ERROR - &>
+  # Append - >> , &>>
+
