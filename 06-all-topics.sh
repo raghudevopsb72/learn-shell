@@ -73,18 +73,27 @@ echo c - $c
 
 #5. Conditions
 
-  # If condition
-    # 1. Simple IF
-    # 2. If Else
-    # 3. Else - If
+  # IF condition
+    # If condition types/forms
+      # 1. Simple IF
+      # 2. If Else
+      # 3. Else - If
 
-  # If uses expressions
-    # 1. String expressions
-    # 2. Number expressions
-    # 3. File expressions
+    # If uses expressions
+      # 1. String expressions
+      # 2. Number expressions
+      # 3. File expressions
+
+  # Case condition
+    # This can do only string comparisions, hence it is not a much preferred option.
 
 #6. Loop
 #7. Function
+  # If we declare a name to set of commands then it is called as function.
+  # Variables inside main program can be accessed and modified inside fucntion and viceversa.
+
+
+
 #8. Exit Status
 #9. Quotes
 #10. SED Editor

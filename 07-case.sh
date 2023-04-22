@@ -11,3 +11,5 @@ case $fruit in
     echo Fruit not found
     ;;
 esac
+
+# We dont prefer case condition, because it has limitatons as it can do only string comparisons.
