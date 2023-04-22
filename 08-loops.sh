@@ -7,3 +7,9 @@ while [ $a -gt 0 ]; do
 done
 
 # If expression is true then loop allows inside.
+
+for fruit in apple banana orange ; do
+  echo Fruit Name - $fruit
+  sleep 1
+done
+
