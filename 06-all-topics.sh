@@ -15,7 +15,10 @@
 ## 02-echo.sh is already having those
 
 # We can print multiple lines in echo command
-echo -e "Line1\nLine2\nLine3"
+echo -e "Line1\nLine2\n\nLine3"
+
+# We can print a tab space between words
+echo -e "word1\t\tword2"
 
 #3. Variables
 #4. Inputs
